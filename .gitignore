@@ -18,5 +18,5 @@ sofagym/env/Results/*
 .idea/
 .ipynb_checkpoints/
 */bayes_sim.egg-info/
-*/todo.txt
+
 *.sh
