@@ -85,7 +85,6 @@ It is also possible to train on an unmodeled setting, by using the option `--unm
     ```
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
-2. [SofaGym: An OpenAI Gym API for SOFASimulations](https://github.com/SofaDefrost/SofaGym)[[2]](#citation-2)
 ---
 
 ### Citation
@@ -99,15 +98,5 @@ It is also possible to train on an unmodeled setting, by using the option `--unm
   pages={612--619},
   year={2023},
   organization={IEEE}
-}
-```
-#### Citation 2
-```bibtex
-@misc{SofaGym,
-  authors = {Ménager, Etienne and Schegg, Pierre and Duriez, Christian and Marchal, Damien},
-  title = {SofaGym: An OpenAI Gym API for SOFASimulations},
-  year = {2020},
-  publisher = {GitHub},
-  journal = {GitHub repository},
 }
 ```
