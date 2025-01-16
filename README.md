@@ -46,7 +46,7 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
 ### TrunkPush - PPO
 
 <p align="center">
-  [![Watch the video](https://raw.githubusercontent.com/jakub-spisak/softrobotics_algorithms/main/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/jakub-spisak/softrobotics_algorithms/main/path/to/video.mkv)
+  [![Watch the video](https://raw.githubusercontent.com/jakub-spisak/softrobotics_algorithms/main/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/jakub-spisak/softrobotics_algorithms/main/repo_assets/20241130-173523.mp4)
 </p>
 
 ## References
