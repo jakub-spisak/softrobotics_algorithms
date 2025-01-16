@@ -56,8 +56,7 @@ Our experiments provided additional data regarding the deterministc, dt and time
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
 
-Timeout> The time limit (in seconds) after which the simulation will terminate if it does not reach its goal.
-Value: 50
+Timeout> The time limit (in seconds) after which the simulation will terminate if it does not reach its goal. Our experiments show, that longer timeout has a drastic effect on the performance of the algorithm.
 
 ### Timeout Value: 50
 
@@ -69,10 +68,6 @@ Value: 50
 <p align="center">
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.01_timeout-10.png/>
 </p>
-
-
-
-
 
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
