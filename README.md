@@ -84,8 +84,8 @@ It is also possible to train on an unmodeled setting, by using the option `--unm
     python test.py --test_env trunkcube-v0 --test_episodes 1 --seed 0 --offline --load_path ./example-results/trunkcube/RFDROPO/2023_07_10_11_34_58_trunkcube-v0_ppo_t2000000_seed1_7901a3c94a22_G0QXG --test_render
     ```
 ## References
-1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136) [[1]](#citation-1)
-2. [SofaGym: An OpenAI Gym API for SOFASimulations](#citation-2)
+1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
+2. [SofaGym: An OpenAI Gym API for SOFASimulations](https://github.com/SofaDefrost/SofaGym)[[1]](#citation-2)
 ---
 
 ### Citation
