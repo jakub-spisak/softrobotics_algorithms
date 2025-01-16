@@ -45,7 +45,7 @@ The experiments were conducted using the simulation platform SOFA-Gym. In this e
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
-The experiment is given further exploration in our [research paper]
+The experiment is given further exploration in our [research paper](https://github.com/jakub-spisak/softrobotics_algorithms/tree/main/repo_assets/research_paper.pdf)
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
 ---
