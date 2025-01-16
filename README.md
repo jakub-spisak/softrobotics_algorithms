@@ -7,7 +7,7 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 ## Table of Contents
 1. [Task overview](#task)
 2. [Theory](#theory)
-3. [Experiments](#experimens)
+3. [Experiments](#experiments)
 4. [References](#references)
 
 ## Task
