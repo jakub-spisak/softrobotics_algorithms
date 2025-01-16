@@ -5,11 +5,14 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 ###Finish dano skusobny komit
 
 ## Table of Contents
-
-1. [Theory](#reinforcement learning in soft robotics)
+1. [Task overview](#task)
+1. [Theory](#theory)
 2. [References](#references)
 
+##Task
+The task for our **School Project** was to explore soft-robotics algorithms, mainly Proximal Policy Optimization (PPO), and compare it to more advanced methods, such as Reset Free Domain Randomaztion Off Policy Optimization (RFDROPO). 
 
+##Theory
 ## Reinforcement Learning in Soft Robotics
 
 Reinforcement Learning (RL) has emerged as a transformative approach for controlling soft robotic systems. Unlike traditional control methods, RL enables robots to learn and adapt their behaviors through interactions with their environments, eliminating the need for explicit programming of complex control strategies. This is particularly advantageous in soft robotics, where the continuous deformations and high-dimensional dynamics present significant challenges for conventional approaches.
@@ -26,14 +29,21 @@ Proximal Policy Optimization (PPO) is a model-free reinforcement learning algori
 
 RF-DROPO builds on the DROPO methodology to handle partially observable environments. It estimates posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay. This method is particularly effective for soft robotic tasks with high degrees of freedom.
 
-## Examples
-### TrunkReach
+##Experiments
+The experiment were coduncted using the simulation platform SOFA-Gym. In this enviroment we mainly focused on TrunkReach model training and testing. The **Training** used PPO algorithm for its **Policy** giving us minor results, compared to RFDROPO.
+### TrunkReach - RFDROPO
 
 <p align="center">
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
-### TrunkPush
+### TrunkReach - RFDROPO
+
+<p align="center">
+  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
+</p>
+
+### TrunkPush - PPO
 
 <p align="center">
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/87781dcb-ca14-487e-b276-f47795910501 alt="trunkpush" width="400"/>
