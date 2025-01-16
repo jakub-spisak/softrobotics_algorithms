@@ -9,10 +9,10 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 1. [Theory](#theory)
 2. [References](#references)
 
-##Task
+## Task
 The task for our **School Project** was to explore soft-robotics algorithms, mainly Proximal Policy Optimization (PPO), and compare it to more advanced methods, such as Reset Free Domain Randomaztion Off Policy Optimization (RFDROPO). 
 
-##Theory
+## Theory
 ## Reinforcement Learning in Soft Robotics
 
 Reinforcement Learning (RL) has emerged as a transformative approach for controlling soft robotic systems. Unlike traditional control methods, RL enables robots to learn and adapt their behaviors through interactions with their environments, eliminating the need for explicit programming of complex control strategies. This is particularly advantageous in soft robotics, where the continuous deformations and high-dimensional dynamics present significant challenges for conventional approaches.
