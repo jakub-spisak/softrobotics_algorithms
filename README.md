@@ -84,6 +84,12 @@ The experiments were conducted using the simulation platform SOFA-Gym. In this e
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
+We have compared standard on-policy Proximal Policy Optimization (PPO) with Reset-Free Domain Randomization Off-Policy Optimization (RF-DROPO) in the context of a trunk-like soft robotic reaching environment. While our focus has been on the training curves of the PPO baseline, we emphasize the core reasons for its limitations:
+
+PPO often converges slowly and may plateau due to frequent resets, limited variability in the environment, and the inefficiency of discarding past experiences.
+RF-DROPO overcomes these limitations by integrating reset-free training, domain randomization, and off-policy data reuse. This combination enables faster learning, increased robustness, and better adaptation to parameter changes.
+Although our study involved a shorter learning phase, we successfully demonstrated the inherent drawbacks of PPO and achieved our goal of showing RF-DROPO's superiority across all metrics in the TrunkReach task. Future work could include side-by-side comparisons of training curves for PPO and RF-DROPO, along with additional metrics such as success rates and time-to-target. Ablation studies on various domain randomization strategies would also provide further insights.
+
 The experiment is given further exploration in our [research paper](https://github.com/jakub-spisak/softrobotics_algorithms/tree/main/repo_assets/research_paper.pdf)
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
