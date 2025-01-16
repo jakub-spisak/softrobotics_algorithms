@@ -1,1 +1,1 @@
-This contains assets for the README
+This contains assets for the main/README.md
