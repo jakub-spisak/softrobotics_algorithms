@@ -61,7 +61,7 @@ Attribute dt: The time step of the simulation. Lower values result in more accur
 ### dt Value: 0.01
 
 <p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.01_timeout-10_.png/>
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.01_timeout-10.png/>
 </p>
 
 ### dt Value: 0.04
