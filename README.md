@@ -61,13 +61,32 @@ Attribute dt: The time step of the simulation. Lower values result in more accur
 ### dt Value: 0.01
 
 <p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.04_timeout-10_.png/>
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.01_timeout-10_.png/>
 </p>
 
 ### dt Value: 0.04
 <p align="center">
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
+
+Timeout> The time limit (in seconds) after which the simulation will terminate if it does not reach its goal.
+Value: 50
+
+### dt Value: 50
+
+<p align="center">
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.04_timeout-10_.png/>
+</p>
+
+### dt Value: 10
+<p align="center">
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
+</p>
+
+
+
+
+
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
 ---
