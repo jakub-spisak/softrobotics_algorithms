@@ -111,4 +111,3 @@ It is also possible to train on an unmodeled setting, by using the option `--unm
   journal = {GitHub repository},
 }
 ```
-
