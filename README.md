@@ -7,12 +7,6 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 ## Table of Contents
 1. [References](#references)
 
-1. **ResetFree-DROPO** (**RF-DROPO**): Our method, developed as an extension of [DROPO](https://github.com/gabrieletiboni/dropo). In this approach, we relax the original assumption of resetting the simulator to each visited real-world state. Instead, we consider that we only know the initial full configuration of the environment, and actions are replayed in an open-loop fashion, always starting from the initial state configuration. For further details, please refer to Sec. IV-A in our [paper](https://arxiv.org/abs/2303.04136).
-
-### 4. Evaluation
-To evaluate the effectiveness of various methods in a Sim-to-Real setting, it is common practice to start with a Sim-to-Sim scenario. This allows us to test the transferability of learned policies using simulation alone. To do this, we initially worked in a source environment where the dynamics parameters were unknown. Our aim was to estimate an optimal policy that would be suitable for the unknown target domain.
-Subsequently, we can now evaluate the learned policy by applying it to a target simulated environment with the nominal target dynamics parameters that we attempted to infer during the inference phase.
-
 ## Examples
 ### TrunkReach
 
