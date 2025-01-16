@@ -11,7 +11,7 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 4. [References](#references)
 
 ## Task
-The task for our **School Project** was to explore soft-robotics algorithms, mainly Proximal Policy Optimization (PPO), and compare it to more advanced methods, speciffically Reset Free Domain Randomaztion Off Policy Optimization (RFDROPO). 
+The task for our **School Project** was to explore soft-robotics algorithms, mainly Proximal Policy Optimization (PPO), and compare it to more advanced methods, specifically Reset Free Domain Randomization Off Policy Optimization (RFDROPO). 
 
 ## Theory
 ## Reinforcement Learning in Soft Robotics
@@ -31,7 +31,7 @@ Proximal Policy Optimization (PPO) is a model-free reinforcement learning algori
 RF-DROPO builds on the DROPO methodology to handle partially observable environments. It estimates posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay. This method is particularly effective for soft robotic tasks with high degrees of freedom.
 
 ## Experiments
-The experiment were coduncted using the simulation platform SOFA-Gym. In this enviroment we mainly focused on TrunkReach model training and testing. The **Training** used PPO algorithm for its **Policy** giving us minor results, compared to RFDROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RFDROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
+The experiments were conducted using the simulation platform SOFA-Gym. In this environment we mainly focused on TrunkReach model training and testing. The **Training** used PPO algorithm for its **Policy** giving us limited results, compared to RFDROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RFDROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
 
 ### TrunkReach - PPO
 
@@ -45,7 +45,7 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
-Our experiments provided additional data regarding the deterministc and timeout attribute. The following graphs will shows the testing performance of PPO algorithms. The bottom represents how many iterations it has been testen on, the side represents rewards. The rewards were given based on the distance from the target. The higher the better.
+Our experiments provided additional data regarding the deterministic and timeout attribute. The following graphs will shows the testing performance of the PPO algorithm. The bottom represents how many iterations it has been testen on, the side represents rewards. The rewards were given based on the distance from the target. The higher the better.
 
 Deterministic: If True, the simulation will be deterministic, meaning that the same inputs will always generate the same outputs. If False, the simulation may include random elements. Our research has shown, that without the random element, the simulation reaches almost twice as good results. 
 
