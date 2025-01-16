@@ -82,25 +82,6 @@ It is also possible to train on an unmodeled setting, by using the option `--unm
   - ```
     python test.py --test_env trunkcube-v0 --test_episodes 1 --seed 0 --offline --load_path ./example-results/trunkcube/RFDROPO/2023_07_10_11_34_58_trunkcube-v0_ppo_t2000000_seed1_7901a3c94a22_G0QXG --test_render
     ```
-### TrunkLift 
-
-<p align="center">
-  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/78eb23cf-9a8d-4d48-91d1-c818576f3748 alt="trunklift" width="400"/>
-</p>
-
-For this example, we did not perform the inference of dynamics parameter distributions. Our focus was on examining the impact of randomizing the wall position during training (as defined in the corresponding `TrunkWall_random_config.json`). Read more in Sec. V-D of our [work](https://arxiv.org/abs/2303.04136) for further details.
-
-- **Policy Training - fixed DR**
-  - ```
-    python train.py --env trunkwall-v0 --algo ppo --now 1 --seed 0 -t 2000000 --run_path ./runs/trunkwall --wandb_mode disabled
-    ```
-- **Evaluation** (suggested for an out-of-the-box testing)
-  - A control policy has here already been trained in a previous policy training step and is simply loaded.
-  - ```
-    python test.py --test_env trunkwall-v0 --test_episodes 1 --seed 0 --offline --load_path ./example-results/trunkwall/2023_02_26_20_46_59_trunkwall-v0_ppo_t2000000_seed3_mn011935323_R922D --test_render
-    ```
-
-    ```
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](#citation-1)
 
