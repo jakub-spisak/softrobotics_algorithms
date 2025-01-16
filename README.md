@@ -44,7 +44,9 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
-Our experiments provided additional data regarding the deterministc, dt and timeout attribute. Deterministic: If True, the simulation will be deterministic, meaning that the same inputs will always generate the same outputs. If False, the simulation may include random elements. Our research has shown, that without the random element, the simulation reaches almost twice as good results. This is showcased on the rewards graphs, were rewards are given based on the distance from the destination.
+Our experiments provided additional data regarding the deterministc and timeout attribute. The following graphs will shows the testing performance of PPO algorithms. The bottom represents how many iterations it has been testen on, the side represents rewards. The rewards were given based on the distance from the target. The higher the better.
+
+Deterministic: If True, the simulation will be deterministic, meaning that the same inputs will always generate the same outputs. If False, the simulation may include random elements. Our research has shown, that without the random element, the simulation reaches almost twice as good results. 
 
 ### Deterministic false
 <p align="center">
@@ -56,7 +58,7 @@ Our experiments provided additional data regarding the deterministc, dt and time
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
 
-Timeout> The time limit (in seconds) after which the simulation will terminate if it does not reach its goal. Our experiments show, that longer timeout has a drastic effect on the performance of the algorithm.
+Timeout: The time limit (in seconds) after which the simulation will terminate if it does not reach its goal. Our experiments show, that longer timeout has a drastic effect on the performance of the algorithm.
 
 ### Timeout Value: 50
 
