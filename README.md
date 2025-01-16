@@ -46,10 +46,12 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
 
 Our experiments provided additional data regarding the deterministc and timeout attribute. Deterministic: If True, the simulation will be deterministic, meaning that the same inputs will always generate the same outputs. If False, the simulation may include random elements. Our research has shown, that without the random element, the simulation reaches almost twice as good results. This is showcased on the rewards graphs, were rewards are given based on the distance from the destination.
 
+###Deterministic false
 <p align="center">
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.04_timeout-10_.png/>
 </p>
 
+###Deterministic true
 <p align="center">
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
