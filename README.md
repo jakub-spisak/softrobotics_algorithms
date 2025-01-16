@@ -22,11 +22,21 @@ Beyond task-specific applications, RL provides a framework for optimizing soft r
 
 ## Proximal Policy Optimization (PPO)
 
-Proximal Policy Optimization (PPO) is a model-free reinforcement learning algorithm designed to balance learning stability and efficiency. It simplifies the optimization process by replacing the hard trust region constraint of Trust Region Policy Optimization (TRPO) with a clipping mechanism, which prevents large updates to the policy. This approach allows PPO to use first-order optimization methods, such as gradient descent, while maintaining robust performance and ease of implementation across a wide range of tasks.
+**Proximal Policy Optimization** (PPO) is a model-free reinforcement learning algorithm designed to balance learning stability and efficiency. It simplifies the optimization process by replacing the hard trust region constraint used in **Trust Region Policy Optimization** (TRPO) with a clipping mechanism, which prevents overly large updates to the policy. This design enables PPO to leverage first-order optimization methods, such as gradient descent, while maintaining robust performance and ease of implementation across a wide range of tasks.
+
+Limitations of PPO:
+PPO is a popular on-policy reinforcement learning method. However, its frequent resets to a nominal start state and lack of domain randomization often result in slow convergence in soft robotic tasks, particularly those requiring broad exploration and robustness to parameter variations.
 
 ## RF-DROPO: Handling Partially Observable Environments
 
-RF-DROPO builds on the DROPO methodology to handle partially observable environments. It estimates posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay. This method is particularly effective for soft robotic tasks with high degrees of freedom.
+**RF-DROPO** builds upon the DROPO methodology to address partially observable environments. By estimating posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay, RF-DROPO is particularly effective for soft robotic tasks with high degrees of freedom.
+
+Key Components of RF-DROPO:
+**Reset-Free** (RF): Training continues from diverse intermediate trunk states instead of resetting after each episode, enabling comprehensive exploration and reducing dependency on predefined starting conditions.
+
+**Domain Randomization** (DR): Systematic randomization of environment parameters (e.g., stiffness, friction) ensures the learned policy is robust and capable of handling a wide range of real-world conditions.
+
+**Off-Policy Optimization** (OPO): A replay buffer stores collected transitions, allowing the policy to be updated using off-policy methods. This approach accelerates learning by reusing past data and efficiently integrating experiences from randomized domains.
 
 ## Experiments
 The experiments were conducted using the simulation platform SOFA-Gym. In this environment we mainly focused on TrunkReach model training and testing. The training used PPO algorithm for its policy giving us limited results, compared to RFDROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RFDROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
