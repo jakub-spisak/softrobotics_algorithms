@@ -92,17 +92,3 @@ env = gym.make("maze-v0")
 ```
 
 The tripod is actuated by three servomotors. Similarly to the Trunk Environment, the Maze environment has a dicrete action space of 6 actions, moving  each  servomotor  by  one  increment,  and could easily be extended to be continuous.
-
-
-## Results
-
-In this section we demonstrate some use cases of the environments available in SofaGym, namely Reinforcement Learning, Imitation Learning, planning using Monte Carlo Tree Search and shape optimisation using Bayesian Optimization.
-
-### Reinforcement Learning: Learning to grasp different objects with GripperEnv
-### Imitation Learning: Learning to imitate an inverse controller with TrunkEnv
-### Monte Carlo Tree Search: solving MazeEnv with planning
-
-
-## Notes
-
-1. At the moment the available action spaces are: continuous, discrete, tuple and dictionary.
