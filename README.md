@@ -7,6 +7,23 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 ## Table of Contents
 1. [References](#references)
 
+
+# Reinforcement Learning in Soft Robotics
+
+Reinforcement Learning (RL) has emerged as a transformative approach for controlling soft robotic systems. Unlike traditional control methods, RL enables robots to learn and adapt their behaviors through interactions with their environments, eliminating the need for explicit programming of complex control strategies. This is particularly advantageous in soft robotics, where the continuous deformations and high-dimensional dynamics present significant challenges for conventional approaches.
+
+State-of-the-art RL techniques, such as Proximal Policy Optimization (PPO) and Soft Actor-Critic (SAC), have shown great promise in addressing the unique demands of soft robotics. These algorithms excel in high-dimensional control scenarios, enabling soft robots to accomplish tasks such as locomotion, manipulation, and adaptive grasping. For example, RL has been leveraged to train soft robotic grippers to adjust their grasping strategies for diverse objects, including fragile or irregularly shaped items. Similarly, RL-based methods have been applied to soft robotic locomotion, allowing robots to navigate complex terrains by discovering efficient gaits and utilizing their inherent compliance to overcome obstacles.
+
+Beyond task-specific applications, RL provides a framework for optimizing soft robotic behaviors in scenarios that require adaptability and precision. Through trial-and-error interactions in simulated environments, RL agents can uncover robust and efficient control policies that are resilient to environmental or task-related variations.
+
+# Proximal Policy Optimization (PPO)
+
+Proximal Policy Optimization (PPO) is a model-free reinforcement learning algorithm designed to balance learning stability and efficiency. It simplifies the optimization process by replacing the hard trust region constraint of Trust Region Policy Optimization (TRPO) with a clipping mechanism, which prevents large updates to the policy. This approach allows PPO to use first-order optimization methods, such as gradient descent, while maintaining robust performance and ease of implementation across a wide range of tasks.
+
+# RF-DROPO: Handling Partially Observable Environments
+
+RF-DROPO builds on the DROPO methodology to handle partially observable environments. It estimates posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay. This method is particularly effective for soft robotic tasks with high degrees of freedom.
+
 ## Examples
 ### TrunkReach
 
