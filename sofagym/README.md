@@ -12,19 +12,6 @@ The Gym framework allows to interact with an environment using well-known keywor
 
 The use of this interface allows intuitive interaction with any environment, and this is what SofaGym allows when the environment is a Sofa scene. For more information on Gym, check the official documentation page [here](https://gym.openai.com/docs/).
 
-
-## Citing
-
-If you use the project in your work, please consider citing it with:
-```bibtex
-@misc{SofaGym,
-  authors = {Ménager, Etienne and Schegg, Pierre and Duriez, Christian and Marchal, Damien},
-  title = {SofaGym: An OpenAI Gym API for SOFASimulations},
-  year = {2020},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-}
-```
 ## The tools
 
 ### Server/worker architecture
@@ -64,10 +51,6 @@ These different elements make it possible to create and personalise the task to 
 The  Gripper  Environmentoffers  two  different  scenes.   In  both  scenes,  the objective is to grasp a cube and bring it to a certain height.  The closer the cube is to the target, the greater the reward.
 
 The two scenes are distinguished by their action  space.   In  one  case  the  actions  are  discrete and correspond to a particular movement. We define a correspondence between a Gym action (int) and corresponding Sofa displacement and direction.
-
-```python
-env = gym.make("gripper-v0")
-```
 
 In the second case,  the actions are continuous  and  correspond  directly  to  a  movement  ofthe gripper’s fingers.  This difference is indicated when defining the environment
 
