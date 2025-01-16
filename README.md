@@ -50,6 +50,10 @@ Our experiments provided additional data regarding the deterministc and timeout 
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.04_timeout-10_.png/>
 </p>
 
+<p align="center">
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png/>
+</p>
+
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
 ---
