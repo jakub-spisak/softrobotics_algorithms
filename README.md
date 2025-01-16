@@ -30,7 +30,7 @@ Proximal Policy Optimization (PPO) is a model-free reinforcement learning algori
 
 RF-DROPO builds on the DROPO methodology to handle partially observable environments. It estimates posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay. This method is particularly effective for soft robotic tasks with high degrees of freedom.
 
-##Experiments
+## Experiments
 The experiment were coduncted using the simulation platform SOFA-Gym. In this enviroment we mainly focused on TrunkReach model training and testing. The **Training** used PPO algorithm for its **Policy** giving us minor results, compared to RFDROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RFDROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
 
 ### TrunkReach - PPO
