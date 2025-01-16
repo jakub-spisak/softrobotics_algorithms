@@ -40,7 +40,7 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
 ### TrunkReach - RFDROPO
 
 <p align="center">
-  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
+  <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/2025-01-15%2011-24-54.mkv alt="trunkreach" width="400"/>
 </p>
 
 ### TrunkPush - PPO
