@@ -114,15 +114,6 @@ We found that Domain Randomization is effective in enhancing robustness during t
   - ```
     python train_fixed_dr.py --env multigaitrobot-v0 --test_env multigaitrobot-v0 --eval_freq 12000 --seed 0 --now 1 -t 500000 --run_path ./runs/multigait --bounds_path ./BestBounds/MultiGait/gauss_bounds.npy --distribution_type truncnorm --wandb_mode disabled
     ```
-- **Evaluation** (suggested for an out-of-the-box testing)
-  - A control policy has here already been trained in a previous policy training step and is simply loaded.
-  - It is possible to observe how the policy performs in both simplified and complex models by simply adjusting the value of the `reduced` attribute in the `MultiGaitRobot_random_config.json` file.
-  - ```
-    python test.py --test_env multigaitrobot-v0 --test_episodes 1 --seed 0 --offline --load_path ./example-results/multigait/2023_02_07_08_37_02_multigaitrobot-v0_ppo_t341000_seed1_hactarlogin358482_X54NP --test_render
-    ```
-## Troubleshooting
-- If you are using a conda environment to run this tooolkit, you may fail in some errors with OpenGL libraries (e.g., `libGL error`). In this case you can try to install `conda install -c conda-forge libstdcxx-ng` or follow [this guide](https://stackoverflow.com/questions/72110384/libgl-error-mesa-loader-failed-to-open-iris) for more troubleshooting.
-
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](#citation-1)
 
