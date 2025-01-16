@@ -6,8 +6,8 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 
 ## Table of Contents
 
-[Theory](#reinforcement)
-[References](#references)
+1. [Theory](#reinforcement learning in soft robotics)
+2. [References](#references)
 
 
 ## Reinforcement Learning in Soft Robotics
