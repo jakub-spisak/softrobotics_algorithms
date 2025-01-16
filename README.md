@@ -99,20 +99,7 @@ For this example, we did not perform the inference of dynamics parameter distrib
   - ```
     python test.py --test_env trunkwall-v0 --test_episodes 1 --seed 0 --offline --load_path ./example-results/trunkwall/2023_02_26_20_46_59_trunkwall-v0_ppo_t2000000_seed3_mn011935323_R922D --test_render
     ```
-### Multigait 
 
-<p align="center">
-  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/0cf97be8-c4b3-4dd7-9d62-a9d897428499 alt="multi-red" width="400"/>
-  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/61cb8f3b-04a6-4d7c-bda3-29c070ff0711 alt="multi-compl" width="400"/>
-</p>
-
-For this example, we did not perform the inference of dynamics parameter distributions. Our focus was on examining the impact of randomization (as defined in the corresponding `MultiGaitRobot_random_config.json`) during training using a simplified model to then evaluate the performance on a more complex version of model.
-
-We found that Domain Randomization is effective in enhancing robustness during training. This approach allows us to reduce the training time by utilizing simplified models for training while still achieving successful transfer of learned behavior to more accurate models during evaluation. Read more in Sec. V-C of our [work](https://arxiv.org/abs/2303.04136) for further details.
-    
-- **Policy Training - fixed DR**
-  - ```
-    python train_fixed_dr.py --env multigaitrobot-v0 --test_env multigaitrobot-v0 --eval_freq 12000 --seed 0 --now 1 -t 500000 --run_path ./runs/multigait --bounds_path ./BestBounds/MultiGait/gauss_bounds.npy --distribution_type truncnorm --wandb_mode disabled
     ```
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](#citation-1)
