@@ -70,7 +70,7 @@ Despite its popularity as an on-policy reinforcement learning method, PPO has li
    A replay buffer stores collected transitions, enabling policy updates using off-policy methods. This accelerates learning by reusing past data and efficiently integrating experiences from randomized domains.
 
 ## Experiments
-The experiments were conducted using the simulation platform SOFA-Gym. In this environment we mainly focused on TrunkReach model training and testing. The training used PPO algorithm for its policy giving us limited results, compared to RFDROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RFDROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
+The experiments were conducted using the simulation platform SOFA-Gym. In this environment we mainly focused on TrunkReach model training and testing. The training used PPO algorithm for its policy giving us limited results, compared to RF-DROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RF-DROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
 
 ### TrunkReach - PPO
 
