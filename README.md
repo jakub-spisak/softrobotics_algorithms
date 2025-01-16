@@ -51,7 +51,7 @@ Our experiments provided additional data regarding the deterministc and timeout 
 </p>
 
 <p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png/>
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
 
 ## References
