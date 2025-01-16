@@ -56,31 +56,18 @@ Our experiments provided additional data regarding the deterministc, dt and time
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
 
-Attribute dt: The time step of the simulation. Lower values result in more accurate simulation but higher computational load. 
-
-### dt Value: 0.01
-
-<p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.01_timeout-10.png/>
-</p>
-
-### dt Value: 0.04
-<p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
-</p>
-
 Timeout> The time limit (in seconds) after which the simulation will terminate if it does not reach its goal.
 Value: 50
 
-### dt Value: 50
+### Timeout Value: 50
 
 <p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.04_timeout-10_.png/>
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.01_timeout-50_.png/>
 </p>
 
-### dt Value: 10
+### Timeout Value: 10
 <p align="center">
-<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.01_timeout-10.png/>
 </p>
 
 
