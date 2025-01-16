@@ -44,7 +44,7 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
-Our experiments provided additional data regarding the deterministc and timeout attribute. Deterministic: If True, the simulation will be deterministic, meaning that the same inputs will always generate the same outputs. If False, the simulation may include random elements. Our research has shown, that without the random element, the simulation reaches almost twice as good results. This is showcased on the rewards graphs, were rewards are given based on the distance from the destination.
+Our experiments provided additional data regarding the deterministc, dt and timeout attribute. Deterministic: If True, the simulation will be deterministic, meaning that the same inputs will always generate the same outputs. If False, the simulation may include random elements. Our research has shown, that without the random element, the simulation reaches almost twice as good results. This is showcased on the rewards graphs, were rewards are given based on the distance from the destination.
 
 ### Deterministic false
 <p align="center">
@@ -56,6 +56,18 @@ Our experiments provided additional data regarding the deterministc and timeout 
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
 </p>
 
+Attribute dt: The time step of the simulation. Lower values result in more accurate simulation but higher computational load. 
+
+### dt Value: 0.01
+
+<p align="center">
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-false_sf-5_dt-0.04_timeout-10_.png/>
+</p>
+
+### dt Value: 0.04
+<p align="center">
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/reward_analysis_deterministic-true_sf-5_dt-0.04_timeout-10_.png.png/>
+</p>
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
 ---
