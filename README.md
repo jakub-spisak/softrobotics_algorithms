@@ -30,18 +30,20 @@ Proximal Policy Optimization (PPO) is a model-free reinforcement learning algori
 RF-DROPO builds on the DROPO methodology to handle partially observable environments. It estimates posterior distributions over dynamics parameters using a likelihood-based objective function and open-loop action replay. This method is particularly effective for soft robotic tasks with high degrees of freedom.
 
 ##Experiments
-The experiment were coduncted using the simulation platform SOFA-Gym. In this enviroment we mainly focused on TrunkReach model training and testing. The **Training** used PPO algorithm for its **Policy** giving us minor results, compared to RFDROPO.
-### TrunkReach - RFDROPO
-
-<p align="center">
-  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
-</p>
+The experiment were coduncted using the simulation platform SOFA-Gym. In this enviroment we mainly focused on TrunkReach model training and testing. The **Training** used PPO algorithm for its **Policy** giving us minor results, compared to RFDROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RFDROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
 
 ### TrunkReach - PPO
 
 <p align="center">
 <img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/ppo_video.gif/>
 </p>
+
+### TrunkReach - RFDROPO
+
+<p align="center">
+  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
+</p>
+
 
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
