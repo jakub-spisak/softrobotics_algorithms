@@ -1,6 +1,6 @@
 # Soft Robotics: Exploring Algorithms from "**SOFA-DR-RL: Training Reinforcement Learning Policies for Soft Robots with Domain Randomization in SOFA Framework**"
 ###Finish
-This repository is part of a **School Project** regarding **Reinforcement Learning** algorithms in soft robotics. The repository contains the results of experiments done according to "**Domain Randomization for Robust, Affordable and Effective Closed-loop Control of Soft Robots**" (Gabriele Tiboni, Andrea Protopapa, Tatiana Tommasi, Giuseppe Averta - IROS2023)[1](#citation-1) The results we present focus on the PPO algorithms being compared to RF-DROPO. Our experiments are meant to validate the result of the original creators. 
+This repository is part of a **School Project** regarding **Reinforcement Learning** algorithms used in soft-robotics. The repository contains the results of experiments done according to "**Domain Randomization for Robust, Affordable and Effective Closed-loop Control of Soft Robots**" (Gabriele Tiboni, Andrea Protopapa, Tatiana Tommasi, Giuseppe Averta - IROS2023)[[1]](#citation-1) The results we present focus on the PPO algorithms being compared to RF-DROPO. Our experiments are meant to validate the result of the original creators. 
 ## Abstract
 ###Finish
 
