@@ -7,7 +7,7 @@ This repository is part of a **School Project** regarding **Reinforcement Learni
 2. [Theory](#theory)
 3. [Experiments](#experiments)
 4. [References](#references)
-
+5. [Conclusion](#conclusion)
 ## Task
 The task for our **School Project** was to explore soft-robotics algorithms, mainly Proximal Policy Optimization (PPO), and compare it to more advanced methods, specifically Reset Free Domain Randomization Off Policy Optimization (RFDROPO). 
 
