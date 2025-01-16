@@ -20,3 +20,4 @@ sofagym/env/Results/*
 */bayes_sim.egg-info/
 */todo.txt
 *.sh
+*repo_assets
