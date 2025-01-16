@@ -40,7 +40,7 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
 ### TrunkReach - PPO
 
 <p align="center">
-<img src=https://[github.com/jakub-spisak/softrobotics_algorithms/repo_assets/ppo_video-ezgif.com-video-to-gif-converter.gif](https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/ppo_video-ezgif.com-video-to-gif-converter.gif) alt="trunkreach" width="400"/>
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/blob/main/repo_assets/ppo_video-ezgif.com-video-to-gif-converter.gif alt="trunkreach" width="400"/>
 </p>
 
 ## References
