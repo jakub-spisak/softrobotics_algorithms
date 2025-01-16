@@ -1,8 +1,8 @@
 # Soft Robotics: Exploring Algorithms from "**SOFA-DR-RL: Training Reinforcement Learning Policies for Soft Robots with Domain Randomization in SOFA Framework**"
 
-This repository contains the code for the paper "**Domain Randomization for Robust, Affordable and Effective Closed-loop Control of Soft Robots**" (Gabriele Tiboni, Andrea Protopapa, Tatiana Tommasi, Giuseppe Averta - IROS2023), here presented as an easy-to-use extension for SofaGym and SOFA Framework.
+Soft robotics is a rapidly evolving field that focuses on the development of robots made from highly flexible and compliant materials. Unlike their rigid counterparts, soft robots exhibit adaptability and resilience, making them ideal for tasks that require gentle interaction with humans or delicate environments. These robots are revolutionizing fields such as medicine, exploration, and manufacturing, offering innovative solutions where traditional robotics fall short.
 
-[Paper](https://ieeexplore.ieee.org/document/10342537) / [Preprint](https://arxiv.org/abs/2303.04136) / [Website](https://andreaprotopapa.github.io/dr-soro/) / [Video](https://andreaprotopapa.github.io/dr-soro/)
+This repository contains the results of experiments done according to "**Domain Randomization for Robust, Affordable and Effective Closed-loop Control of Soft Robots**" (Gabriele Tiboni, Andrea Protopapa, Tatiana Tommasi, Giuseppe Averta - IROS2023) The results we present focus on the PPO algorithms being compared to RF-DROPO. Our experiments are meant to validate the result of the original creators. The theory and the result are explained in
 
 ## Abstract
 Soft robots are gaining popularity due to their safety and adaptability, and the SOFA Framework plays a crucial role in this field by enhancing soft robot modeling and simulation. However, modeling complexity, often approximated, challenges the efficacy of reinforcement learning (RL) in real-world scenarios due to a significant domain gap between simulations and physical platforms.
