@@ -3,10 +3,6 @@
 ## Abstract
 ###Finish
 
-<p align="center">
-  <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/670be649-b3fa-4b34-b715-41d4ad8688b4 alt="Offline Adaptive DR paradigm for soft robots." width="700"/>
-</p>
-
 ## Table of Contents
 1. [References](#references)
 
