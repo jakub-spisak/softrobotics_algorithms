@@ -70,7 +70,9 @@ Despite its popularity as an on-policy reinforcement learning method, PPO has li
    A replay buffer stores collected transitions, enabling policy updates using off-policy methods. This accelerates learning by reusing past data and efficiently integrating experiences from randomized domains.
 
 ## Experiments
-The experiments were conducted using the simulation platform SOFA-Gym. In this environment we mainly focused on TrunkReach model training and testing. The training used PPO algorithm for its policy giving us limited results, compared to RF-DROPO. The robotic arm reached the target only in very few cases, the training lasted for numerous hours and it takes a lot of time to reach the target. Using RF-DROPO on the other hand, the robot needed much less training to get a faster and more precise results. 
+The experiments were conducted using the SOFA-Gym simulation platform, with a primary focus on training and testing the TrunkReach model. The training utilized the PPO (Proximal Policy Optimization) algorithm for its policy, which yielded limited results compared to RF-DROPO (Reset-Free Domain Randomization Off-Policy Optimization).
+
+With PPO, the robotic arm reached the target in very few cases, and the training process was time-consuming, lasting for numerous hours. The time required to reach the target was considerable, indicating inefficiency in the learning process. In contrast, when using RF-DROPO, the robot required much less training time to achieve faster and more precise results.
 
 ### TrunkReach - PPO
 
@@ -84,13 +86,16 @@ The experiments were conducted using the simulation platform SOFA-Gym. In this e
   <img src=https://github.com/andreaprotopapa/sofa-dr-rl/assets/44071949/47170f5d-9b51-48db-9f42-0e61ff083476 alt="trunkreach" width="400"/>
 </p>
 
+The inconsistency of the PPO algorithm is a major factor contributing to its performance limitations. This inconsistency stems from several factors, including its reliance on **On-Policy learning**. While adjusting some of its parameters did lead to mild improvements, these gains were often short-lived and couldn't match the overall effectiveness of **RF-DROPO**. RF-DROPO consistently outperformed PPO due to its more robust learning mechanisms, such as off-policy learning and reset-free training, which led to faster and more reliable results.
+
+## Conclusion
 We have compared standard on-policy Proximal Policy Optimization (PPO) with Reset-Free Domain Randomization Off-Policy Optimization (RF-DROPO) in the context of a trunk-like soft robotic reaching environment. While our focus has been on the training curves of the PPO baseline, we emphasize the core reasons for its limitations:
 
 PPO often converges slowly and may plateau due to frequent resets, limited variability in the environment, and the inefficiency of discarding past experiences.
 RF-DROPO overcomes these limitations by integrating reset-free training, domain randomization, and off-policy data reuse. This combination enables faster learning, increased robustness, and better adaptation to parameter changes.
 Although our study involved a shorter learning phase, we successfully demonstrated the inherent drawbacks of PPO and achieved our goal of showing RF-DROPO's superiority across all metrics in the TrunkReach task. Future work could include side-by-side comparisons of training curves for PPO and RF-DROPO, along with additional metrics such as success rates and time-to-target. Ablation studies on various domain randomization strategies would also provide further insights.
 
-The experiment is given further exploration in our [research paper](https://github.com/jakub-spisak/softrobotics_algorithms/tree/main/repo_assets/research_paper.pdf)
+The experiment is given further exploration in our [Research Paper](https://github.com/jakub-spisak/softrobotics_algorithms/tree/main/repo_assets/research_paper.pdf)
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
 ---
