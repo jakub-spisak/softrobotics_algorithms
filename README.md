@@ -40,9 +40,8 @@ The experiment were coduncted using the simulation platform SOFA-Gym. In this en
 ### TrunkReach - PPO
 
 <p align="center">
-[![Watch the video](https://raw.githubusercontent.com/jakub-spisak/softrobotics_algorithms/main/repo_assets/thumbnail.jpg)](https://raw.githubusercontent.com/jakub-spisak/softrobotics_algorithms/main/repo_assets/ppo_video.mp4)
+<img src=https://github.com/jakub-spisak/softrobotics_algorithms/repo_assets/ppo_video-ezgif.com-video-to-gif-converter.gif alt="trunkreach" width="400"/>
 </p>
-
 ## References
 1. [Domain randomization for robust, affordable and effective closed-loop control of soft robots](https://arxiv.org/pdf/2303.04136)[[1]](#citation-1)
 ---
